@@ -1,5 +1,5 @@
 <!-- Coding Ninja = Memoization -->
-
+01.Coding ninja = Memo
 Q.Count Ways To Reach The N-th Stairs
 Moderate
 80/80
@@ -50,7 +50,7 @@ In the second test case, there are eight ways to climb the stairs i.e. {1,1,1,1,
 
 
 <!-- LeetCode = Tabulation  -->
-
+02.LeetCode = Table
 70. Climbing Stairs
 Easy
 

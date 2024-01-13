@@ -1,4 +1,4 @@
-<!-- Coding Ninja -->
+Coding Ninja = Memo + Table
  
 Nth Fibonacci Number
 Easy
