@@ -47,3 +47,45 @@
         
 //     }
 // };
+
+
+
+
+
+
+
+///Tabulation & Space Optimized 
+//TC = O(N), SC = O(1)
+  
+   /*int rob(vector<int>& nums) {
+        
+        
+        int n = nums.size();
+       // vector<int>dp(nums.size(), -1);
+        // int i = nums.size()-1;
+        // return maxi(nums, i, dp);
+        
+        int prev = nums[0];
+        int prev2 = 0;
+        for(int i=1; i<n; i++)
+        {
+            int take = nums[i];
+            if(i>1)
+            {
+                take+=prev2;
+            }
+            
+            int nontake = 0+prev;
+            
+            int curr= max(take, nontake);
+            
+            //Now we will make prev2 = prev & prev = curr
+            prev2 = prev;
+            prev = curr;
+          }
+        
+        
+        return prev;
+     
+    }
+};*/
